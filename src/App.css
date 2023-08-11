@@ -1,0 +1,10 @@
+.nav-fix{
+    /* margin: 100px; */
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.app{
+    padding-top: 50px;
+    /* border: 2px solid red; */
+}
