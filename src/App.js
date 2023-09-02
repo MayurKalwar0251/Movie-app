@@ -38,7 +38,6 @@ function App() {
             <Route exact path='/' element={<Movie  addFavourite={handleFav} progress={setProgressValue} type={""} searchedMovie ={searched}/>}/>
             <Route exact path='/movie' element={<Movie addFavourite={handleFav} progress={setProgressValue}  type={'movie'} searchedMovie ={searched}/>}/>
             <Route exact path='/series' element={<Movie  addFavourite={handleFav} progress={setProgressValue} type={'series'} searchedMovie ={searched}/>}/>
-            <Route exact path='/favourite' element={<Favorites favoriteMovies={fav} />}/>
           </Routes>
       </Router>
     </div>
