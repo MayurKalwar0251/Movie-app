@@ -45,15 +45,7 @@ export default function Navbar(props) {
                   Series
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/favourite"
-                >
-                  Favourite
-                </Link>
-              </li>
+             
             </ul>
             <form className="d-flex" role="search">
               <input
